@@ -121,7 +121,7 @@
                   <a class="nav-link" href="#dekan">Organisasi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">program studi</a>
+                    <a class="nav-link" href="#prodi">program studi</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contactme">Contact us</a>
@@ -136,34 +136,41 @@
       <div class="jumbotron text-center">
         <div class="container">
             <h1 class="display-4">Universitas Trunojoyo Madura</h1>
-            <img src="https://www.trunojoyo.ac.id/images/stories/UTM_DIKBUD.png" alt="logo utm" width="300" height="300" style="center">
+            <img src="https://www.trunojoyo.ac.id/images/stories/UTM_DIKBUD.png" alt="logo utm" width="300" height="300">
             <p class="lead">Fakultas Teknik</p>
         </div>
       </div>
       <!-- end jumbotron -->
 
       <!-- deskripsi fakultas teknik -->
+      <section id="1">
       <div class="container1">
-          <div class="row">
-              <div class="col-12 text-center" style="padding: 2rem 3rem;">
+          <div class="row justify-content-center">
+              <div class="col-12 text-center" style="padding: 2rem 3rem; text-shadow: 8px 7px 5px grey;">
                   <h2>Fakultas Teknik</h2>
                   <p> </p>
               </div>
-              <div class="col-6 text-center shadow">
+	    <div class="row justify-content-center">
+              <div class="col-4 text-center text-light bg-secondary shadow">
                   <h2>Visi</h2>
                   <p>Akhir tahun 2022, Fakultas Teknik Universitas Trunojoyo Madura menjadi Fakultas yang unggul di tingkat Nasional dalam Bidang Pendidikan dan Riset Engineering.</p>
               </div>
-              <div class="col-6 text-center shadow">
+              <div class="col-4 text-center text-light bg-secondary shadow">
                   <h2>Misi</h2>
-                  <p class="text-start">1.Menyelenggarakan pendidikan yang berkualitas untuk menghasilkan lulusan, ilmu pengetahuan dan teknologi yang sesuai dengan kebutuhan stakeholder.<br>
+                  <p class="text-start">
+		    1.Menyelenggarakan pendidikan yang berkualitas untuk menghasilkan lulusan, ilmu pengetahuan dan teknologi yang sesuai dengan kebutuhan stakeholder.<br>
 
                     2.Melakukan penelitian untuk mendukung peningkatan kualitas pendidikan, ilmu pengetahuan dan teknologi.<br>
                     
                     3.Melaksanakan pengabdian kepada masyarakat berbasis ilmu pengetahuan, teknologi dan hasil penelitian untuk memberikan kontribusi bagi masyarakat.</p>
-              </div>
-              <div class="col-12 text-center shadow" style="padding-top: 2rem;">
+              </div><br>
+	    </div>
+	    </div>
+	    <div class="row justify-content-center">
+              <div class="col-6 text-center shadow" style="padding-top: 2rem;">
                 <h2>Tujuan</h2>
-                <p class="text-start">1.Menghasilkan lulusan yang mampu memenuhi kebutuhan stakeholdernya; <br>
+                <p class="text-start">
+		    1.Menghasilkan lulusan yang mampu memenuhi kebutuhan stakeholdernya; <br>
 
                     2.Membentuk sistem pendidikan yang handal (rebiable) untuk mengembangkan ilmu dan pengetahuan dalam bidang engineering yang sesuai dengan kebutuhan stakeholder. <br>
                     
@@ -172,13 +179,20 @@
                     4.Membangun dan meningkatkan kerjasama dengan stakeholder untuk meningkatkan kualitas pendidikan,penelitian dan pengabdian pada masyarakat. <br>
                     
                     5.Menghasilkan jalinan kerja sama yang senergis dan berkelanjutan.</p>
-            </div><br><hr>
-            
+            </div>
+	  </div>
+        </div>
+    </div>
+  </section>
+  <br><hr>
+      <section id="dekan">
+	    <div class="container2"> 
             <div class="col-12 text-center ">
                 <h3>Dekanat Fakultas Teknik <br>
                 Universitas Trunojoyo Madura</h3></div>
               <div class="col-12 text-center"><p><img class="image" src="https://cdn.discordapp.com/attachments/830338650793181207/842964023565090836/dekan.jpg"><br>Dekan Fakultas Teknik<br>PROF. DR. RACHMAD HIDAYAT, MT., IPU., AER</p>
               </div>
+	    <div class="row">
             <div class="col-4 text-center">
               <p><img class="image" src="https://cdn.discordapp.com/attachments/830338650793181207/842964913986994216/dekan_1.jpg"><br>
               Wakil Dekan II <br>ACHMAD UBAIDILLAH MS., S.T., M.T</p>
@@ -190,7 +204,11 @@
               <p><img class="image" src="https://cdn.discordapp.com/attachments/830338650793181207/842965467228536882/dekan_3.jpg"><br>
               Wakil Dekan III<br>ACHMAD JAUHARI, S.T., M.KOM</p>
             </div><hr>
-            <div class="col-12 text-center">
+	  </div>
+        </section>
+      <section id="prodi">
+          <div class="row">
+            <div class="col-12 text-center" style="padding: 2rem; background-color: grey; text-shadow: 6px 6px 5px white;">
               <!-- hyperlink ke website setiap prodi -->
               <h3>Program Studi</h3></div>
             <div class="col-4 text-center">
@@ -218,7 +236,10 @@
               <p class="button"><a href="http://mekatronika.trunojoyo.ac.id/"><button class="button1"><img src="https://cdn.discordapp.com/attachments/830338650793181207/842969546204905482/mekatro.png"></button></a></p>
             </div>
           </div>
-    </div><hr>
+	  </div>
+      </div><hr>
+    </div>
+  </section>
       <!-- form -->
       <section id="contactme">
         <div class="container">
@@ -232,15 +253,15 @@
               <form>
                 <div class="mb-3">
                   <label for="name" class="form-label">Nama</label>
-                  <input type="text" class="form-control" id="name">
+                  <input type="text" class="form-control" id="name" required>
                 </div>
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email">
+                  <input type="email" class="form-control" id="email" required>
                 </div>
                 <div class="mb-3">
                   <label for="telp" class="form-label">No.Telpon</label>
-                  <input type="tel" class="form-control" id="tel">
+                  <input type="number" class="form-control" id="tel" required>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
